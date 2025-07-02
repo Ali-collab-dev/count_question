@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 int main (){
     char a[20];
@@ -11,6 +12,7 @@ int main (){
     if (strcmp(a,"hitler")==0)
     {
         printf("**THIS PROGRAMME IS ENDED\n");
+        exit(0);
     }
     printf("Enter The Marks-->");
     scanf("%d",&x);
